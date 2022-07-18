@@ -1,9 +1,10 @@
 # 対象者
-こちらはデッドバイデイライトのPC版（Steam）でプレイしている方のみが使用できるツールとなっています。  
+こちらのツールはDead by DaylightをPC版（Steam）でプレイしている方が使用できるツールです。  
 
 
 # ツールの内容
 自動で1日の戦績をツイートしてくれるツールです。  
+1日でナースのブリンクをした回数やブライトで突進攻撃を当てた回数など。
 
 ![スクリーンショット 2022-07-18 16 45 30](https://user-images.githubusercontent.com/109508477/179466294-657521fe-55e6-4f20-b5c7-253cf4d2b9be.png)
 
@@ -14,25 +15,25 @@
 ## 必要なライブラリ  
 ・BeautifulSoup4  
 ・Tweepy  
-（※コマンドプロントで下記のコマンドと入力すると一括インストールされます。）  
+
+# 使用手順  
+## 1.任意のフォルダにファイルをダウンロード  
+右上にある黄緑色のボタンを押して、「Download ZIP」でファイルをダウンロード。  
+ダウンロードしたファイルを任意のフォルダに解凍。  
+## 2.ライブラリをインストール  
 ```
 cd "ダウンロードしたフォルダのパス"
 pip install -r requirements.txt
 ```
-
-# 使用方法  
-## 1.任意のフォルダにファイルをダウンロード  
-右上にある黄緑色のボタンを押して、「Download ZIP」でファイルをダウンロード  
-ダウンロードしたファイルを任意のフォルダに解凍
-## 2.TwitterのAPIおよびSteam64IDを取得  
+## 3.TwitterのAPIおよびSteam64IDを取得  
 下のURLから必要な情報を取得して、メモしておく。  
   ・[TwitterのAPI取得方法](https://di-acc2.com/system/rpa/9688/)  
   ・[Steam64IDの取得方法](https://volx.jp/steam-id-steamid64-check)    
-## 3.input_info.pyに必要情報を書き込む（合計8箇所）   
+## 4.input_info.pyに必要情報を書き込む（合計8箇所）   
 ![スクリーンショット 2022-07-18 21 33 09](https://user-images.githubusercontent.com/109508477/179512008-992e0687-0ebb-4b53-be31-d33ce6eed908.png)
 
 
-## 4. AutoTweetStats.pyを実行  
+## 5. AutoTweetStats.pyを実行  
 ```
 cd "ダウンロードしたフォルダのパス"
 python AutoTweetStats.py
