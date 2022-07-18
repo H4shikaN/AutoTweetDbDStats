@@ -9,11 +9,16 @@
 
 
 # 前提環境
-ツールはPythonで作成しているため、Pythonが実行できる環境が必要です。
+ツールはPythonで作成しているため、Pythonを実行できる環境が必須です。
 [Python = 3.6~]  
-
-必要なライブラリは，コマンドプロントなどでインストールしたフィルダまで移動し、「pip install -r requirements.txt」と入力するとインストールされます。  
-
+## 必要なライブラリ  
+・BeautifulSoup4  
+・Tweepy  
+（※コマンドプロントで下記のコマンドと入力すると一括インストールされます。）  
+```
+cd "ダウンロードしたフォルダのパス"
+pip install -r requirements.txt
+```
 
 # 使用方法
 1.TwitterのAPIおよびSteam64IDを取得  
@@ -21,5 +26,9 @@
   ・[Steam64IDの取得方法](https://volx.jp/steam-id-steamid64-check)    
 2.input_info.pyの中にTwitterのAPIやDbDの情報を入力    
 3. AutoTweetStats.pyを実行  
+```
+cd "ダウンロードしたフォルダのパス"
+python AutoTweetStats.py
+```
 
 （※個人で作ったツールなので上手く動作しない可能性があります。何かあれば気軽に、[@HashikaN44](https://twitter.com/HashikaN44)までDMください！！）
