@@ -20,12 +20,19 @@ cd "ダウンロードしたフォルダのパス"
 pip install -r requirements.txt
 ```
 
-# 使用方法
-1.TwitterのAPIおよびSteam64IDを取得  
+# 使用方法  
+## 1.任意のフォルダにファイルをダウンロード  
+右上にある黄緑色のボタンを押して、「Download ZIP」でファイルをダウンロード  
+ダウンロードしたファイルを任意のフォルダに解凍
+## 2.TwitterのAPIおよびSteam64IDを取得  
+下のURLから必要な情報を取得して、メモしておく。  
   ・[TwitterのAPI取得方法](https://di-acc2.com/system/rpa/9688/)  
   ・[Steam64IDの取得方法](https://volx.jp/steam-id-steamid64-check)    
-2.input_info.pyの中にTwitterのAPIやDbDの情報を入力    
-3. AutoTweetStats.pyを実行  
+## 3.input_info.pyに必要情報を書き込む（合計8箇所）   
+![スクリーンショット 2022-07-18 21 33 09](https://user-images.githubusercontent.com/109508477/179512008-992e0687-0ebb-4b53-be31-d33ce6eed908.png)
+
+
+## 4. AutoTweetStats.pyを実行  
 ```
 cd "ダウンロードしたフォルダのパス"
 python AutoTweetStats.py
