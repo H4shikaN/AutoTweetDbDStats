@@ -22,4 +22,4 @@
 2.input_info.pyの中にTwitterのAPIやDbDの情報を入力    
 3. AutoTweetStats.pyを実行  
 
-（※個人で作ったツールなので上手く動作しない可能性があります。何かあれば気軽に、Twitterの[@HashikaN44](https://twitter.com/HashikaN44)までDMください！！）
+（※個人で作ったツールなので上手く動作しない可能性があります。何かあれば気軽に、[@HashikaN44](https://twitter.com/HashikaN44)までDMください！！）
