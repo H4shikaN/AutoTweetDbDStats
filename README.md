@@ -5,7 +5,7 @@
 # ツールの内容
 キラーの1日の戦績を自動でツイートしてくれるツールです。  
 ナースでブリンク攻撃をした回数やブライトで突進攻撃を当てた回数など。  
-（※[DbDstats](https://dbd.tricky.lol/)で見られる戦績に限る。）
+（※[DbDstats](https://dbd.tricky.lol/)で見られるキラーの戦績に限る。）
 
 ![スクリーンショット 2022-07-18 16 45 30](https://user-images.githubusercontent.com/109508477/179466294-657521fe-55e6-4f20-b5c7-253cf4d2b9be.png)
 
