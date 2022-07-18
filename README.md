@@ -1,7 +1,16 @@
-# AutoTweetDbDStats
-Auto Tweet your daily killer stats.
-
-
+# 対象者
 こちらはデッドバイデイライトのPC版（Steam）でプレイしている方のみが使用できるツールとなっています。
 
-自動で
+# ツールの内容
+自動で1日の戦績をツイートしてくれるツールです。
+
+![スクリーンショット 2022-07-18 16 45 30](https://user-images.githubusercontent.com/109508477/179466294-657521fe-55e6-4f20-b5c7-253cf4d2b9be.png)
+
+# 使用前の前提環境
+ツールはPythonで作成しているため、Pythonが実行できる環境が必要です。
+[Python = 3.6~]
+
+必要なライブラリは，インストールしたフィルダまで移動して「pip install -r requirements.txt」と入力するとインストールされます。
+
+# 使用方法
+
