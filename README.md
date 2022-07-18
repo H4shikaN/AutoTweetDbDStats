@@ -8,7 +8,7 @@
 ![スクリーンショット 2022-07-18 16 45 30](https://user-images.githubusercontent.com/109508477/179466294-657521fe-55e6-4f20-b5c7-253cf4d2b9be.png)
 
 
-# 使用前の前提環境
+# 前提環境
 ツールはPythonで作成しているため、Pythonが実行できる環境が必要です。
 [Python = 3.6~]
 
