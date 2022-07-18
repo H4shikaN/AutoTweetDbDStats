@@ -16,8 +16,10 @@
 
 
 # 使用方法
-1. input_info.pyの中にTwitterのAPIやDbDの情報を入力  
-2. AutoTweetStats.pyを実行  
+1.TwitterのAPIおよびSteam64IDを取得  
+  ・[TwitterのAPI取得方法](https://di-acc2.com/system/rpa/9688/)  
+  ・[Steam64IDの取得方法](https://volx.jp/steam-id-steamid64-check)    
+2.input_info.pyの中にTwitterのAPIやDbDの情報を入力    
+3. AutoTweetStats.pyを実行  
 
-※個人で作ったツールなので上手く動作しない可能性があります。  
-その際には、Twitterの@HashikaN44までDMくれたらすぐに対応します！！
+（※個人で作ったツールなので上手く動作しない可能性があります。何かあれば気軽に、Twitterの[@HashikaN44](https://twitter.com/HashikaN44)までDMください！！）
