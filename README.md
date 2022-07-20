@@ -1,5 +1,5 @@
  ※使用手順は記載しておりますが、かなり省略しております。  
- 下記の内容で使用手順が理解できなかった場合はぜひ[こちら](https://h4shikan.hatenablog.com/entry/2022/07/18/233825)を参考にしてみてください！！  
+ 下記の内容で[使用手順](https://github.com/H4shikaN/AutoTweetDbDStats/blob/main/README.md#%E4%BD%BF%E7%94%A8%E6%89%8B%E9%A0%86)が理解できなかった場合はぜひ[こちら](https://h4shikan.hatenablog.com/entry/2022/07/18/233825)を参考にしてみてください！！  
 
 # 対象者
 こちらのツールはDead by DaylightをPC版（Steam）でプレイしている方が使用できるツールです。  
